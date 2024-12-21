@@ -53,7 +53,7 @@ let browser = '';
 function getBrowser() {
   return new Promise((resolved) => {
     setTimeout(() => {
-      browser = (Math.floor(Math.random() * 10) < 9) ? 'opera' : 'moxilla' 
+      browser = (Math.floor(Math.random() * 10) < ) ? 'opera' : 'moxilla' 
       resolved(browser)
     }, 2000);
 
