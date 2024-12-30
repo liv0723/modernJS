@@ -24,7 +24,7 @@ colorsMap.set('amarillo', 'amarillo1');
 colorsMap.set('rojo', 'rojo1');
 console.log(colorsMap)
 
-colorsMap.forEach ((key, value) => {
+colorsMap.forEach ((value, key) => {
   console.log(key, value)
 });
 
@@ -113,6 +113,7 @@ function showMenu({title = 'Untitled', width = 100, height = 200, items: [item1,
 }
 
 showMenu(optionsMenu)
+console.log(optionsMenu)
 
 function secondShowMenu ({title = 'my menu', height = 100, width = 100} = {}) {
    console.log(`${title} ${width} ${height}`);
